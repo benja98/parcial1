@@ -14,6 +14,7 @@ class Body extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var crossAxisAlignment;
     return Background(
       child: SingleChildScrollView(
         child: Column(
@@ -50,7 +51,11 @@ class Body extends StatelessWidget {
               onChanged: (value) {},
             ),
             RoundedButton(
-              text: "LOGIN",
+              text: "GUARDAR",
+              press: () {},
+            ),
+            RoundedButton(
+              text: "CANCELAR",
               press: () {},
             ),
           ],
